@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment files & credentials
+.env
+.env.*
+!.env.example
+
+# Runtime data & temp in-memory binaries
+.mongodb-memory-server/
+pids
+*.pid
+*.seed
+*.log
+
+# Coverage directory
+coverage/
+
+# OS and IDE files
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
